@@ -19,12 +19,19 @@ public static void main(String[] args){
     la_3.setBackground(Color.GREEN);
     TextField txt_2 = new TextField();
     txt_2.setBounds(100,300,70,20);
+    Label la_4= new Label("Result:");
+    la_4.setBounds(100,350,70,30);
+    la_4.setBackground(Color.MAGENTA);
+    TextField txt_3= new TextField();
+    txt_3.setBounds(100,400,70,20);
+
     Button bt_1= new Button("Add");
     bt_1.setBounds(100,450,50,20);
-    bt_1.setBackground(Color.blue);
+    bt_1.setBackground(Color.orange);
 
 
-
+    frame.add(la_4);
+    frame.add(txt_3);
     frame.add(bt_1);
     frame.add(txt_2);
     frame.add(la_3);
@@ -42,3 +49,5 @@ public static void main(String[] args){
         });
     }
 }
+    
+
